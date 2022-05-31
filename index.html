@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soru Cevap</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<div class="start_btn">
+    <span>Başla</span>
+</div>
+
+<div class="quiz_box">
+    <header style="text-align: center">
+        <div class="title">Soru</div>
+        <div id="wrong">
+            <div class="wrong_style">Yanlış Soruyu Seçtiniz.</div>
+        </div>
+        <div class="timer">
+            <div class="time_left_txt">Zaman</div>
+            <div class="timer_sec">5</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class="que_text"></div>
+        <div class="option_list"></div>
+    </section>
+
+    <footer>
+        <div class="total_que"></div>
+        <div class="ipucusakla" style="display: none">
+            <div class="flex" style="display: flex">
+                <span onclick="myFunction()">🔑:</span>
+                <div id="myDIV">ipucunu görmek ister misiniz?</div>
+            </div>
+        </div>
+        <button class="next_btn">Sonraki Soru</button>
+    </footer>
+</div>
+
+<div class="result_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">Soruları Tamamladınız</div>
+    <div class="score_text"></div>
+    <div class="buttons">
+        <button class="restart">Tekrarla</button>
+        <button class="quit">Çıkış</button>
+    </div>
+</div>
+<audio class="muzik"
+        autoplay>
+    <source src="music.mp3"/>
+</audio>
+<script src="js/questions.js"></script>
+<script src="js/script.js"></script>
+<script src="confetti.js"></script>
+</body>
+</html>
