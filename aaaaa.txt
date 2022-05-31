@@ -1,9 +1,0 @@
-yanlış cevaba tıkladı
-counter = 0
-
-
-counter ++ 3 defa 100 puan
-
-1.soru 20puan 
-100 puan 
-

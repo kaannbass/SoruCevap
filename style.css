@@ -7,9 +7,9 @@
 }
 body{
     height: 100vh;
-    background-image: url("./Asset/kitap.jpeg");
+    background-image: url("./Asset/question.jpg");
     background-size:cover;
-    background-position: center;
+    background-position:top;
 }
 
 .start_btn{
